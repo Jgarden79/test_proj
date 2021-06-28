@@ -1,0 +1,92 @@
+
+<html>
+<head>
+<div style="overflow:scroll; width:1600px; height:800px">
+<style>
+    h2 {
+        text-align: center;
+        font-family: NanumGothic;
+        color: #003C5A;
+    }
+    table { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .scroll
+		{
+        min-height: 67.5%;
+        width: 26.5%;
+        position: absolute;
+        top: 162%;
+        overflow: scroll;
+        }
+    th, td {
+        padding: 5px;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 90%;
+    }
+    th {
+        color: white;
+        background-color: #003C5A;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    table tbody tr:hover {
+        background-color: #dddddd;
+        color: #003C5A;
+    }
+    .wide {
+        width: 90%; 
+    }
+    table tr:nth-child(even) {
+        background-color: lightgrey;
+    }
+</style>
+</head>
+<body>
+    <h2> High Income Trade </h2>
+<table border="1" class="dataframe wide">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Underlying_Asset</th>
+      <th>Asset_Price</th>
+      <th>Minimum ($)</th>
+      <th>Exp_Date</th>
+      <th>Months_Left</th>
+      <th>Pot_Upside (%)</th>
+      <th>Ann_Pot_Upside (%)</th>
+      <th>Gross Protection (%)</th>
+      <th>Net Protection</th>
+      <th>Annual_Protection (%)</th>
+      <th>Trade_Type</th>
+      <th>Fact Sheet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>SPY HI Trade</td>
+      <td>426.19</td>
+      <td>42500.0</td>
+      <td>2023-12-15</td>
+      <td>29.6</td>
+      <td>14.55%</td>
+      <td>5.90%</td>
+      <td>-29.61%</td>
+      <td>-14.08%</td>
+      <td>-5.71%</td>
+      <td>High Income Trade</td>
+      <td><a href="https://jgarden79.github.io/test_proj/2023-12-15_L_SPY_HIT.html">High Income Trade</a></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

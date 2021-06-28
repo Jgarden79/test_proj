@@ -1,0 +1,113 @@
+
+<html>
+<head>
+<div style="overflow:scroll; width:1600px; height:800px">
+<style>
+    h2 {
+        text-align: center;
+        font-family: NanumGothic;
+        color: #003C5A;
+    }
+    table { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .scroll
+		{
+        min-height: 67.5%;
+        width: 26.5%;
+        position: absolute;
+        top: 162%;
+        overflow: scroll;
+        }
+    th, td {
+        padding: 5px;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 90%;
+    }
+    th {
+        color: white;
+        background-color: #003C5A;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    table tbody tr:hover {
+        background-color: #dddddd;
+        color: #003C5A;
+    }
+    .wide {
+        width: 90%; 
+    }
+    table tr:nth-child(even) {
+        background-color: lightgrey;
+    }
+</style>
+</head>
+<body>
+    <h2> ARK FINTEC Available Trades </h2>
+<table border="1" class="dataframe wide">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Underlying_Asset</th>
+      <th>Asset_Price</th>
+      <th>Minimum ($)</th>
+      <th>Exp_Date</th>
+      <th>Months_Left</th>
+      <th>Pot_Upside (%)</th>
+      <th>Ann_Pot_Upside (%)</th>
+      <th>Downside Before Protection (%)</th>
+      <th>Protection (%)</th>
+      <th>Annual_Protection (%)</th>
+      <th>Spread (%)</th>
+      <th>Collateral</th>
+      <th>Trade_Type</th>
+      <th>Fact Sheet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ARKF</td>
+      <td>54.29</td>
+      <td>5400.0</td>
+      <td>2022-01-21</td>
+      <td>6.8</td>
+      <td>6.93%</td>
+      <td>12.04</td>
+      <td>-4.13%</td>
+      <td>-26.92%</td>
+      <td>-47.47</td>
+      <td>33.75</td>
+      <td>ARKF</td>
+      <td>FINTEC</td>
+      <td><a href="https://jgarden79.github.io/test_proj/2022-01-21_L_ARKF_gap.html">FINTEC</a></td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>ARKF</td>
+      <td>54.29</td>
+      <td>5400.0</td>
+      <td>2023-01-20</td>
+      <td>18.8</td>
+      <td>20.39%</td>
+      <td>12.61</td>
+      <td>-3.69%</td>
+      <td>-23.08%</td>
+      <td>-14.75</td>
+      <td>42.81</td>
+      <td>ARKF</td>
+      <td>FINTEC</td>
+      <td><a href="https://jgarden79.github.io/test_proj/2023-01-20_L_ARKF_gap.html">FINTEC</a></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
